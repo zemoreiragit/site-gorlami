@@ -5,6 +5,7 @@ var app = express();
 var http = require('http').Server(app);
 var port = process.env.PORT || 8000;
 
+app.use(express.static('public'));
 
 app.set("view engine", "ejs");
 
