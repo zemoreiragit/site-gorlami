@@ -3,6 +3,7 @@ var app = express();
 // var port = process.env.PORT || 8000;
 
 var http = require('http').Server(app);
+var port = process.env.PORT || 8000;
 
 
 app.set("view engine", "ejs");
@@ -22,6 +23,6 @@ app.get(`*`, function(req, res) {
 });
 
 
-http.listen(process.env.PORT || 3000, function(){
-  console.log('listening on', http.address().port);
+http.listen(port, function() {
+    console.log("App is running on port " + port);
 });
