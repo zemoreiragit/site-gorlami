@@ -1,0 +1,217 @@
+/* FONTES */
+@font-face {
+    font-family: "Bernier";
+    src: url("fonts/Bernier.ttf");
+}
+
+@font-face {
+    font-family: "BernierRegular";
+    src: url("fonts/BernierRegular.ttf");
+}
+
+.titulo {
+    font-family: "BernierRegular";
+    text-align: center;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+}
+
+.texto-maior {
+    font-family: "BernierRegular";
+    text-align: center;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+}
+
+/* CORES */
+.bg-azul {
+    background-color: #232339;
+}
+
+.bg-projetos {
+    background-color:  #ec3347;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+   
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.team-description {
+    margin-top: -18px;
+   
+}
+
+.timeImg {
+    width: 80%;
+    height: auto;
+}
+
+.timeTexto {
+    padding-top: 10px;
+}
+
+.quote {
+    /* text-decoration-line: 100px underline;
+    text-decoration-color: yellow;
+    size: 10px; */
+    text-decoration: none;
+    border-bottom: 3px solid #232339e1;
+}
+
+.textura {
+    background-image: url("Img/BG_textura_header.png"); 
+    background-size:cover; 
+    background-repeat: repeat;
+    /* background-attachment: scroll;     */
+    /* background-color: white; */
+}
+
+.exclamacao {
+    /* display: inline; */
+    position: relative;
+    right: 0;
+    /* top: -14em; */
+    /* margin-right: 0; */
+    /* margin-left: 200%; */
+    background-color:black;
+    width:20%;
+    height: auto;
+}
+
+.bg-vermelho {
+    background-color:  #ec3347;  
+
+}
+
+.font-vermelho {
+    color: #ec3347;
+}
+
+.font-branco {
+    color: white;
+}
+
+.font-azul {
+    color: #232339;
+}
+
+.aspect {
+    object-fit: contain;
+    max-width:33%
+   
+}
+
+.mission {
+   /* margin-right: 20%; */
+   margin-top: -20px;
+   padding-bottom: 20px;
+}
+
+.imagens-missao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: auto;
+    height: auto;
+    grid-gap: 2em;
+    margin: 4% 10%;
+}
+
+.listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0fr;
+    grid-gap: 0.5em;
+    margin-top: 0.5em;
+    overflow: hidden;
+}
+
+.listingTeam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 70%;
+    height: auto;
+    /* grid-row-gap: -100px; */
+    grid-gap: 2em;
+    margin: 0 auto;
+    margin-top: 3%;
+    /* margin-bottom: -3%; */
+    /* padding-bottom: 10%; */
+}
+
+
+.projeto {
+    max-width: 200px;
+    max-height: 160px;
+    min-width: auto;
+}
+
+.projetos {
+
+    background-color: white;
+}
+
+.interrogacao {
+    background-color: white;
+    
+    position: absolute;
+    margin: -10em auto;
+    padding: 0 0;
+    width: 4em;
+    height: auto;
+}
+
+
+.centralizarTexto {
+    text-align: center;
+}
+
+.logo-gorlami {
+    display: block;
+    margin: 0 auto;
+    width: 35em;
+    height: auto;
+    padding-top: 10%;
+}
+
+.texto-header {
+    font-family: "BernierRegular";
+    text-align: center;
+    /* margin: 7% 0px; */
+}
+.texto-grande {
+    font-size: 3em;
+ 
+}
+
+.texto-menor {
+    font-family: "BernierRegular";
+    font-size: 2em;
+    color: #636369;
+    margin-top: -5%;
+    /* padding-top: -450em; */
+    padding-bottom: 10%;
+    opacity: 0.5;
+
+}
+
+
+.icon {
+    width: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: 'Dosis', light;
+    font-size: 1em;
+}

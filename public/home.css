@@ -1,0 +1,268 @@
+
+.vermelho {
+    background-color:  #ec3347;
+}
+
+.azul {
+    background-color: #232339;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-vermelho {
+    background-color:  #ec3347;  
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+img{
+    margin-bottom: 10px;
+    /* background-color: black; */
+}
+
+.aspect {
+    object-fit: contain;
+    max-width:33%
+   
+    /* object-fit: cover; magic */ 
+}
+
+.mission {
+    margin: 0% 10%;
+    /* background-color: black; */
+     /* padding: 10%; */
+    /* width: 10%; */
+}
+
+.imagens {
+    /* background-color: black; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    object-fit: contain;
+
+}
+
+.font-vermelho {
+    color: #ec3347;
+}
+
+.team {
+    text-align: center;
+}
+
+.marcas {
+    /* margin: 0 0 -300px 0; */
+    padding-top: 10px;
+    height: 30%;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%; 
+}
+
+.font-branco {
+    color: white;
+}
+
+.font-azul {
+    color: #232339;
+}
+
+ul {
+    list-style-type: square;
+    color: black;
+    /* list-style-image: url('img/z3_bullet.png'); */
+}
+
+li a{
+    color:white;
+    list-style-type: circle;
+}
+
+.icon {
+    width: 2em;
+    margin-top: 10px;
+}
+
+
+
+.azulEpisodes {
+    background-color: #232339;
+    /* border-radius: 25px; */
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+    
+    /* background: #73AD21; */
+    padding: 20px; 
+    /* width: 200px; */
+    /* height: 150px;  */
+}
+
+.vermelhoEpisodes {
+    background-color: #ec3347;;
+    /* border-radius: 25px; */
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+    
+    /* background: #73AD21; */
+    padding: 20px; 
+    /* width: 200px; */
+    /* height: 150px;  */
+}
+
+body {
+    font-family: 'Dosis', light;
+    font-size: 1em;
+}
+
+.video{
+    padding: 10px;
+}
+
+.teamMember {
+    padding: 5px;
+}
+
+.sublinha {
+    text-decoration-line: underline;
+    text-decoration-color: #ec3347;
+
+}
+
+.imgFooter {
+    width: 1em;
+}
+
+.nomeTime {
+    text-align: right;
+}
+
+.centralizar {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-gorlami {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    padding-top: 10%;
+}
+
+.header-bg {
+    background-color: #232339;
+    /* padding-bottom: 0; */
+}
+
+.texto-header {
+    font-family: "BernierRegular";
+    text-align: center;
+    margin: 7% 0px;
+}
+.texto-grande {
+    font-size: 3em;
+ 
+}
+
+.texto-menor {
+    font-size: 2em;
+    color: #636369;
+    margin-top: -4%;
+    padding-bottom: 10%;
+    opacity: 0.5;
+    
+}
+
+.missao {
+    /* padding-top: 0; */
+    margin-top: -6%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.centralizarTexto {
+    text-align: center;
+}
+
+
+  html,
+  body {
+      font-size: 14px !important;
+  }
+  h1 {
+      font-size: 1.602em;
+  }
+  h2 {
+      font-size: 1.424em;
+  }
+  h3 {
+      font-size: 1.266em;
+  }
+  h4 {
+      font-size: 1.125em;
+  }
+  h5 {
+      font-size: 0.889em;
+  }
+  h6 {
+      font-size: 0.79em;
+  }
+  .display-1 {
+      font-size: 3.906em;
+  }
+  .display-2 {
+      font-size: 3.125em;
+  }
+  .display-3 {
+      font-size: 2.5em;
+  }
+  .display-4 {
+      font-size: 1.5em;
+  }
+
+  @media (min-width: 48em) {
+	h1 {
+	  font-size: 2.441em;
+	}
+	h2 {
+		font-size: 1.953em;
+	}
+	h3 {
+		font-size: 1.563em;
+	}
+	h4 {
+		font-size: 1.25em;
+	}
+	.display-1 {
+		font-size: 6em;
+	}
+	.display-2 {
+		font-size: 5.5em;
+	}
+	.display-3 {
+		font-size: 4.5em;
+	}
+	.display-4 {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+}
+
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
+}
